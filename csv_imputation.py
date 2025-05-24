@@ -28,7 +28,7 @@ class CSVImputationApp:
         self.app_description = "A tool to load CSV files, identify missing values, and apply various imputation techniques."
 
 
-        #applying some cool styles for the gui
+        #applying some cool styles for the gui -- interactive
         self.style = ttk.Style()
         self.style.theme_use('clam') # Using 'clam' for a slightly more modern look
         self.style.configure("TButton", padding=6, relief="flat", font=('Helvetica', 10))
